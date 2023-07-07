@@ -6,7 +6,7 @@ Nesse desenvolvimento o cliente precisava de um JOB que verificasse o consumo da
 
 Select na tabela MARC. Para cada MATNR/BUKRS verificar o consumo na tabela MVER.
 
-Se não houver nenhum consumo nas últimas 12 semanas ou nenhum cadastrastro de MATNR e BUKRS na tabela MVER, deve ser criado/atualizado a tabela MVER campo MGV__"uma semana antes da atual" com o valor de 0,100 utilizando a função MVER_MAINTAIN_DARK.
+Se não houver nenhum consumo nas últimas 12 semanas ou nenhum cadastro de MATNR e BUKRS na tabela MVER, deve ser criado/atualizado a tabela MVER campo MGV__"uma semana antes da atual" com o valor de 0,100 utilizando a função MVER_MAINTAIN_DARK.
 
 ### Identificação da semana atual
 
