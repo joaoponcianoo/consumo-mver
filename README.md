@@ -10,7 +10,7 @@ Se não houver nenhum consumo nas últimas 12 semanas ou nenhum cadastro de MATN
 
 ### Identificação da semana atual
 
-Para identificar a semana atual utilizei a função DATE_GET_WEEK onde eu entro com SY-DATUM, retornando a semana atual no ano.
+Para identificar a semana atual utilizei a função DATE_GET_WEEK, onde eu entro com SY-DATUM e retornando a semana atual no ano.
 
 ![image](https://github.com/joaoponcianoo/consumo-mver/assets/115370264/01affff7-0d79-4adf-b897-b23aaaeaf5f5)
 
